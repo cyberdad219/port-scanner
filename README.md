@@ -17,7 +17,7 @@ No external third-party libraries (like `scapy` or `nmap-python`) are required. 
 2. Clone this repository to your local workspace.
 3. Open a terminal in the project directory.
 
-## 💻 How To Run
+## How To Run
 By default, the script is securely pre-configured to audit `localhost` (your own loopback IP) across common network ports (21, 22, 80, 443, etc).
 
 Run the scanner using your system's terminal:
@@ -32,7 +32,7 @@ python scanner.py
 python3 scanner.py
 ```
 
-## 📊 Expected Output Examples
+## Expected Output Examples
 
 ### Secure Host Configuration
 If your target machine is securely hardened with no listening background processes exposed on those ports, the tool returns a clean status list:
